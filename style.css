@@ -256,7 +256,15 @@ th {
 }
 
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos, .produto-descricao, .produto-preco {
+
+    .caixa,
+    .principal,
+    .conteudo-beneficios,
+    .mapa-conteudo,
+    .video,
+    .produtos,
+    .produto-descricao,
+    .produto-preco {
         width: auto;
     }
 
@@ -268,7 +276,9 @@ th {
         position: static;
     }
 
-    .lista-beneficios, .imagem-beneficios, .produtos li {
+    .lista-beneficios,
+    .imagem-beneficios,
+    .produtos li {
         width: 100%;
     }
 }
